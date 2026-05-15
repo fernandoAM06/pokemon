@@ -1,0 +1,22 @@
+/* 1. Centrar la tarjeta horizontal y verticalmente en la pantalla */
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Fondo opcional para el navegador */
+  }
+  
+  /* 2. Diseñar la capa principal de la tarjeta */
+  .pokemon-card {
+    background-color: #e0e0e0; /* Fons de color gris clar */
+    border-radius: 15px;       /* Arrodoneix les cantonades */
+    padding: 20px;             /* Padding per al marge interior */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Ombra per donar profunditat */
+    
+    /* Dimensiones opcionales para darle forma a la tarjeta */
+    width: 300px;
+    min-height: 400px;
+  }
+  
